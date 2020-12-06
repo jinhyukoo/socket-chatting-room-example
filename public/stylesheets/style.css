@@ -1,0 +1,55 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font: 13px Helvetica, Arial; 
+  background-color: #CEECF5;
+}
+form {
+  background: #eee;
+  padding: 3px;
+  position:
+  fixed;
+  bottom: 0; 
+  width: 100%; 
+}
+form input {
+  border: 0; 
+  border-radius: 5px;
+  padding: 10px; 
+  width: 90%; 
+  margin-right: 
+  0.5%; 
+}
+form button {
+  width: 9%; 
+  border-radius: 5px;
+  background: #ffd600; 
+  border: none; 
+  padding: 10px; 
+}
+#messages { 
+  display: flex;
+  flex-direction: column;
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.others-message-wrapper {
+  font-size: 16px;
+  max-width: 70%;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px 5px;
+  margin: 5px auto 5px 5px;
+}
+
+.my-message-wrapper {
+  font-size: 16px;
+  max-width: 70%;
+  align-items: flex-end;
+  background-color: #ffd600; 
+  border-radius: 5px;
+  padding: 3px 5px;
+  margin: 5px 5px 5px auto;
+}
